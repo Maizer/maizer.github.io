@@ -8,12 +8,12 @@
     <div class="main">
       <div class="header__title">
         <div class="header__brand">
-          <div style="border-radius: 50px;width: 30px;height: 30px;background: white;padding: 3px;margin-right: 10px;">
+          <div style="border-radius: 50px;width: 30px;height: 30px;background: white;margin-right: 10px;">
             {%- if site.logo -%}
               {%- if site.logotype == 'svg' -%}
                 {%- include site.logo -%}
               {%- else -%}
-                <image src='{{site.logo}}' style="width:100%;height:100%;"/>
+                <image src='{{site.logo}}' style="width:100%;height:100%;border-radius: 50px;padding: 1px;"/>
               {%- endif -%}
             {%- else -%}
             {%- include svg/logo.svg -%}
