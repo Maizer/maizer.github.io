@@ -9,11 +9,11 @@
       <div class="header__title">
         <div class="header__brand">
           <div style="border-radius: 50px;width: 30px;height: 30px;background: white;padding: 3px;margin-right: 10px;">
-            {%- if site.logo != '' -%}
+            {%- if site.logo -%}
               {%- if site.logotype == 'svg' -%}
                 {%- include site.logo -%}
               {%- else -%}
-                <image src='{{site.logo}}' style="width:100%;height:100%;"></image>
+                <image src='{{site.logo}}' style="width:100%;height:100%;"/>
               {%- endif -%}
             {%- else -%}
             {%- include svg/logo.svg -%}
