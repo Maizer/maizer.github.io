@@ -12,8 +12,8 @@ tags: Code
 解决:查阅JSZIP的代码与StreamSaver的代码发现,其对uint8array编码支持更好,更换成uint8array编码之后,问题解决,即便打包2G甚至更大的文件也不会出现错误.     
 
 总结:其原因在于由于示例代码的误导,走了不少弯路   
-```
-  Promise.all(promises).then(() => {
+```javascript
+  Promise.all(promises).then(() => {
 
 
                 zip.generateAsync({
