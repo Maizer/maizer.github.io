@@ -127,7 +127,7 @@
     color: $focus-clr;
     @if $focus-bg-clr{
       background-color: $focus-bg-clr;
-      box-shadow: 0 0 0 2px rgba($focus-bg-clr, .4);
+      box-shadow: 0 0 0 2px rgba($focus-bg-clr, .0);
     }
     @if $ignore-path == false {
       svg path {
