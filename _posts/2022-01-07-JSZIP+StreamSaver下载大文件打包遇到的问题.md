@@ -59,9 +59,11 @@ tags: Code
 对此我这两天一直在反复的查询相关资料.以试图解开Blob与Uint8Array的区别.
 
 https://stackoverflow.com/questions/17823225/do-arraybuffers-have-a-maximum-length
+
 我在这里发现了Uinit8Array的一个答案,浏览器对ArrayBuffer是没有施加限制的,理论上只与用户的内存大小相关.
 
 https://stackoverflow.com/questions/42614880/download-large-data-stream-1gb-using-javascript
+
 我在这里发现了Blob的答案,浏览器会对Blob施加大小的限制.
 
 初步来看,应该是浏览器对两种类型的内部处理是不同的.
