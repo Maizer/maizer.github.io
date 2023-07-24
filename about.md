@@ -25,9 +25,6 @@ titles:
   # @end locale config
 key: page-about
 ---
+<p align="center"><b>走向每一个深夜,拥抱每一段时光.我们总有精彩.</b></p>
 
-走向每一个深夜,拥抱每一段时光.我们总有精彩.
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
